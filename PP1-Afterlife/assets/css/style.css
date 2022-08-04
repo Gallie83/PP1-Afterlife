@@ -1,0 +1,75 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: d4a373;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0);
+    height: 100px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+label.logo {
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 100px;
+    padding: 0 100px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    border-radius: 5%;
+}
+
+
+.float-left {
+    float: left;
+    max-width: 60%;
+}
+
+#sunset-img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+    display: inline-block;
+
+    background-color: #034078;
+    border-radius: 25%;
+    width: 30%;
+}
+
+.about {
+    width: 30%;
+    color: white;
+
+    text-align: center;
+}
