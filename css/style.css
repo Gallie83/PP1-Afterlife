@@ -45,3 +45,32 @@ nav ul li a {
     font-weight: 100;
     border-radius: 5%;
 }
+
+
+.float-left {
+    float: left;
+    max-width: 60%;
+    /* display: inline-block; */
+}
+
+#sunset-img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+    display: inline-block;
+
+    background-color: #034078;
+    border-radius: 25%;
+    width: 30%;
+}
+
+.about {
+    width: 30%;
+    color: white;
+
+    text-align: center;
+}
