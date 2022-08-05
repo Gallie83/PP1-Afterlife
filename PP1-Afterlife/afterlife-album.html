@@ -16,25 +16,42 @@
     <header id="album"></header>
 
     <div>
+        <!-- Navbar -->
         <nav class="navbar">
             <label class="logo">Afterlife</label>
             <ul>
+                <!-- Links to other pages in navbar -->
                 <li> <a href="index.html" aria-label="Go to the home page">HOME</a></li>
                 <li> <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a></li>
                 <li> <a class="current" href="#album" aria-label="Go to the top of the page">ALBUM</a></li>
                 <li> <a href="afterlife-merch.html" aria-label="Go to the merchandise page">MERCH</a></li>
                 <li><a href="afterlife-contact.html" aria-label="Go to the contact page">CONTACT</a></li>
             </ul>
-
+            <div class="dropdown">
+                <!-- Dropdown menu -->
+                <button class="dropbtn">
+                    Menu
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <!-- Links in dropdown menu -->
+                    <a href="index.html" aria-label="Go to the home page">HOME</a>
+                    <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a>
+                    <a href="afterlife-merch.html" aria-label="Go to the merchandise page">MERCH</a>
+                    <a href="afterlife-contact.html" aria-label="Go to the contact page">CONTACT</a>
+                </div>
+            </div>
         </nav>
     </div>
     <!-- Album 1 -->
     <section>
         <div>
+            <!-- Album 1 image -->
             <div class="album-frame">
                 <img src="../PP1-HTML-CSS/assets/album-art.jpg" class="album-img"
                     alt="Art for new album-A hand reaching out of the ocean">
             </div>
+            <!-- Album 1 info -->
             <div class="album-info">
                 <h2>Everything I'm Not</h2>
                 <hr>
@@ -46,16 +63,21 @@
                     1 hour 15 minutes and sports a myriad of features from local artists such as DJ hazza and production
                     credits from James Gallagher.
                 </p>
+                <!-- Link to spotify -->
                 <button class="spotify" onclick="window.location.href='https://www.spotify.com';">Listen here!</button>
             </div>
         </div>
         <!-- Album 2 -->
         <div>
             <div class="album-frame">
+                <!-- Album 2 image -->
                 <img src="../PP1-HTML-CSS/assets/first-album.jpg" class="album-img"
                     alt="Art for first album-The moon above the clouds">
             </div>
+
+            <!-- Album 2 info -->
             <div class="album-info">
+
                 <h2>The Knights Watch</h2>
                 <hr>
                 <p>The Knights Watch is the first full length album by Irish rock band Afterlife. It was released on
@@ -65,13 +87,14 @@
                     With a 8 song tracklist spanning 42 minutes, it incorporates numerous musical from funk and soul to
                     rock and roll.
                 </p>
+                <!-- Link to spotify -->
                 <button class="spotify" onclick="window.location.href='https://www.spotify.com';">Listen here!</button>
             </div>
         </div>
 
     </section>
 
-
+    <!-- Footer with social media links -->
     <footer>
         <span>Find us on:</span>
 

@@ -26,9 +26,7 @@
                 <li> <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a></li>
                 <li> <a href="afterlife-album.html" aria-label="Go to the album page">ALBUM</a></li>
                 <li> <a href="afterlife-merch.html" aria-label="Go to the merchandise page">MERCH</a></li>
-                <li>
-                    <a=href="afterlife-contact.html" aria-label="Go to the contact of the page">CONTACT</a>
-                </li>
+                <li> <a class="current" href="#contact" aria-label="Go to the top of the page">CONTACT</a></li>
             </ul>
             <!-- Dropdown menu -->
             <div class="dropdown">
@@ -41,19 +39,37 @@
                     <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a>
                     <a href="afterlife-album.html" aria-label="Go to the album page">ALBUM</a>
                     <a href="afterlife-merch.html" aria-label="Go to the merchandise page">MERCH</a>
-                    <a href="afterlife-contact.html" aria-label="Go to the contact page">CONTACT</a>
                 </div>
             </div>
         </nav>
     </div>
     <section class="contact-form">
-        <!-- Message to tell user that form information was submitted -->
-        <div id="submitted">
-            <h1>THANKS FOR GETTING IN TOUCH!</h1>
+        <h1>WE WOULD LOVE TO HEAR FROM YOU!</h1>
 
-            <h2 class="submit-head">We will get back to you as soon as possible</h2>
 
-        </div>
+        <!-- Contact form  -->
+        <form method="POST" action="afterlife-submit.html">
+            <fieldset>
+                <legend>Need to get in touch?</legend>
+                <p>We're always happy to chat and help answer any questions you may have! Please note, we try our best
+                    to respond to all inquiries within 48 hours, Monday - Friday.</p>
+                <div class="contact-input">
+                    <label for="name-field" class="block-label">Name:</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required="required">
+                </div>
+                <div class="contact-input">
+                    <label for="email-field" class="block-label">Email:</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" required="required">
+                </div>
+                <div class="contact-input">
+                    <label for="textarea">Message:</label>
+                    <input id="textarea" type="text" name="textarea" class="textarea" required="required">
+                </div>
+                <input type="submit" class="block-label" value="Submit">
+            </fieldset>
+        </form>
+
+
 
     </section>
 
