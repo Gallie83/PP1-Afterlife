@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Afterlife Irish band website">
+    <meta name="keywords" content="music, irish, live music, concerts, rock music">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Afterlife</title>
+
+
+</head>
+
+<body>
+    <header id="merch"></header>
+    <div>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <label class="logo">Afterlife</label>
+            <ul>
+                <!-- Links to other pages in navbar -->
+                <li> <a href="index.html" aria-label="Go to the home page">HOME</a></li>
+                <li> <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a></li>
+                <li> <a href="afterlife-album.html" aria-label="Go to the album page">ALBUM</a></li>
+                <li> <a class="current" href="#merch" aria-label="Go to the top of the page">MERCH</a></li>
+                <li><a href="afterlife-contact.html" aria-label="Go to the contact page">CONTACT</a></li>
+            </ul>
+            <!-- Dropdown menu -->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Menu
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <!-- Links in dropdown menu -->
+                    <a href="index.html" aria-label="Go to the home page">HOME</a>
+                    <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a>
+                    <a href="afterlife-album.html" aria-label="Go to the album page">ALBUM</a>
+                    <a href="afterlife-contact.html" aria-label="Go to the contact page">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Clothing -->
+    <section>
+        <div class="clothes">
+            <div class="clothes-img">
+                <!-- Clicking clothing image takes user to merchandise website -->
+                <a href="https://www.redbubble.com/" target="_blank"> <img id="merch-img" src="assets/merch-img.jpg"
+                        alt="Clothing on a clothes rack"></a>
+            </div>
+
+            <div class="clothes-info">
+                <!-- Clothing information -->
+                <h2>Browse through our merchadise!</h2>
+                <hr>
+                <p>Browse through our diverse catalogue of merchandise. We have everything from our own brand of
+                    clothing to
+                    our vinyl and CD discography!</p>
+                <!-- Button takes user to merchandise website -->
+                <button class="browse" onclick="window.location.href='https:www.redbubble.com';"> Browse Now!</button>
+            </div>
+        </div>
+        <hr>
+        <!-- Jewellery -->
+        <div class="jewellery">
+
+            <div class="jewel-img">
+                <!-- Clicking jewellery image takes user to jewellery website -->
+                <a href="https://eroslondon.co/" target="_blank"> <img id="eros-london" src="assets/eros-london.jpg"
+                        alt="Man wearing jewellery"></a>
+            </div>
+            <!-- Jewellery information -->
+            <div class="jewel-info">
+                <h2>Eros London</h2>
+                <hr>
+                <p>Browse through our partner jewellers over at Eros London. Offering high quality jewellery at
+                    affordable prices!</p>
+                <!-- Button takes user to jewellery website -->
+                <button class="browse" onclick="window.location.href='https:www.eros-london.co';">Browse Now!</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer with social media links -->
+    <footer>
+        <span>Find us on:</span>
+
+        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+            aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener"
+            aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+            aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+        <p>© 2022 Afterlife Official. All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
