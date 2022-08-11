@@ -1,6 +1,6 @@
 # Testing
 ## Code Validation
-The Afterlife site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors occured for either. 
+The Afterlife site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home page. After a fix and retest, no errors occured for either. 
 
 The HTML validator results for each page are below:
 
@@ -8,9 +8,6 @@ The HTML validator results for each page are below:
 
 ![W3C Validator test result](assets/readme-assets/home-test.png)
 
-[Home page testing link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgallie83.github.io%2FPP1-HTML-CSS%2Findex.html)
-
-There is an error message here as the form is not yet live.
 
 * Album page
 
@@ -30,13 +27,11 @@ This problem highlighted that there was an anchor tag inside a button. This was 
 * Contact page
 
 ![W3C Validator test result](assets/readme-assets/contact-test.png)
-[Contact testing link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgallie83.github.io%2FPP1-HTML-CSS%2Fafterlife-contact.html)
 
 The CSS validator results are below:
 
 ![CSS Validator test result](assets/readme-assets/css-test.png)
 
-[CSS test validation link](https://jigsaw.w3.org/css-validator/validator)
 ## Responsiveness Test
 
 * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Am I Responsive](https://ui.dev/amiresponsive/).
@@ -85,13 +80,10 @@ The site was also tested using [Google Lighthouse](https://developers.google.com
 
 ## Bugs
 * Solved
-    *There was a gap between the navbar and the pages content which I was unable to remove with padding or margin. I then changed the background color of the body to blend it in to the page so it would not be noticeable.
+    * There was a gap between the navbar and the pages content which I was unable to remove with padding or margin. I then changed the background color of the body to blend it in to the page so it would not be noticeable.
 
 * Un-Solved
     * I was unable to get the buttons to open links in a seperate tab while keeping the main website tab open.
-
-  *Testing page
-    * I was unable to link some of the images to this testing file although they are stored with the rest of the images.
       
     <br>
 

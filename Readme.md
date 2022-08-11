@@ -115,7 +115,7 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 
 * ### Tour
 
-    * The tour page give the user a list of upcoming tour dates, with links to buy tickets under each date.
+    * The tour page gives the user a list of upcoming tour dates, with links to buy tickets under each date.
     * There is an image at the top of the screen showing the band playing live.
 ![Tour page image](assets/readme-assets/tour-screen.png)
 ![Tour page image](assets/readme-assets/tour-dates.png)
@@ -140,7 +140,7 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 * ### Contact 
     *The Contact page provides a chance for the user to connect with the band and ask any questions they have after navigating the information on the site. 
 
-    *There are 3 input areas and a sumbit button on the contact form. After the form is submitted it takes the user to the submit page.
+    *There are 3 input areas and a submit button on the contact form. After the form is submitted it takes the user to the submit page.
 
 ![Contact page image](assets/readme-assets/contact.png)
 
