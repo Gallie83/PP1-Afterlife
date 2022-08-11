@@ -15,9 +15,6 @@ The HTML validator results for each page are below:
 
 * Tour page
 
-![W3C Validator test result](assets/readme-assets/tour-fail.png)
-This problem highlighted that there was an anchor tag inside a button. This was fixed by adding a onclick class to the button and removing the anchor tag.
-
 ![W3C Validator test result](assets/readme-assets/tour-test.png)
 
 * Merch page
